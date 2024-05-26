@@ -3,10 +3,29 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
 
-<VBox alignment="TOP_CENTER" prefHeight="800.0" prefWidth="1000.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schultetable.HelloController">
+<VBox alignment="TOP_CENTER" prefHeight="800.0" prefWidth="1000.0" spacing="20.0" style="-fx-background-color: #ECDEBE;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.schultetable.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-    <Label text="Выберите уровень сложности" />
+
+    <Label prefHeight="164.0" prefWidth="873.0" text="Выберите уровень сложности" textFill="#424530">
+      <font>
+         <Font name="GOST type B" size="68.0" />
+      </font></Label>
+    <Button onAction="#onHelloButtonClick" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #E09232; -fx-background-radius: 45;" text="Нуб (4х4)" textAlignment="CENTER" textFill="#424530" textOverrun="CENTER_WORD_ELLIPSIS">
+      <font>
+         <Font name="GOST type B" size="43.0" />
+      </font></Button>
+    <Button mnemonicParsing="false" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #D76E00; -fx-background-radius: 45;" text="Про (5х5)" textFill="#424530">
+      <font>
+         <Font name="GOST type B" size="43.0" />
+      </font></Button>
+    <Button mnemonicParsing="false" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #B7410E; -fx-background-radius: 45;" text="Хардкор (6х6)" textFill="#424530">
+      <font>
+         <Font name="GOST type B" size="43.0" />
+      </font></Button>
+   <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="150.0" fill="#306531" startX="-150.0" stroke="BLACK" />
 </VBox>
