@@ -4,11 +4,9 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.io.InputStream;
 
 public class HelloApplication extends Application {
     @Override
@@ -20,9 +18,6 @@ public class HelloApplication extends Application {
         stage.setTitle("Schulte table");
         stage.setScene(scene);
 
-        //InputStream iconStream = getClass().getResourceAsStream("/images/smile.png");
-        //Image image = new Image(iconStream);
-        //stage.getIcons().add(image);
         stage.show();
     }
 
