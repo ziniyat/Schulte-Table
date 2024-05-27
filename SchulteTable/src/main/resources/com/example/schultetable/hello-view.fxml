@@ -12,20 +12,20 @@
     </padding>
 
     <Label prefHeight="164.0" prefWidth="873.0" text="Выберите уровень сложности" textFill="#424530">
-      <font>
-         <Font name="GOST type B" size="68.0" />
-      </font></Label>
-    <Button onAction="#onHelloButtonClick" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #E09232; -fx-background-radius: 45;" text="Нуб (4х4)" textAlignment="CENTER" textFill="#424530" textOverrun="CENTER_WORD_ELLIPSIS">
-      <font>
-         <Font name="GOST type B" size="43.0" />
-      </font></Button>
-    <Button mnemonicParsing="false" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #D76E00; -fx-background-radius: 45;" text="Про (5х5)" textFill="#424530">
-      <font>
-         <Font name="GOST type B" size="43.0" />
-      </font></Button>
-    <Button mnemonicParsing="false" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #B7410E; -fx-background-radius: 45;" text="Хардкор (6х6)" textFill="#424530">
-      <font>
-         <Font name="GOST type B" size="43.0" />
-      </font></Button>
-   <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="150.0" fill="#306531" startX="-150.0" stroke="BLACK" />
+        <font>
+            <Font name="GOST type B" size="50.0" />
+        </font></Label>
+    <Button fx:id="mode4x4" onAction="#onMode4x4" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #E09232; -fx-background-radius: 45;" text="Нуб (4х4)" textAlignment="CENTER" textFill="#424530" textOverrun="CENTER_WORD_ELLIPSIS">
+        <font>
+            <Font name="GOST type B" size="35.0" />
+        </font></Button>
+    <Button fx:id="mode5x5" onAction="#onMode5x5" mnemonicParsing="false" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #D76E00; -fx-background-radius: 45;" text="Про (5х5)" textFill="#424530">
+        <font>
+            <Font name="GOST type B" size="35.0" />
+        </font></Button>
+    <Button fx:id="mode6x6" onAction="#onMode6x6" mnemonicParsing="false" prefHeight="121.0" prefWidth="352.0" style="-fx-background-color: #B7410E; -fx-background-radius: 45;" text="Хардкор (6х6)" textFill="#424530">
+        <font>
+            <Font name="GOST type B" size="35.0" />
+        </font></Button>
+    <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="150.0" fill="#306531" startX="-150.0" stroke="BLACK" />
 </VBox>
